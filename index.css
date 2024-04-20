@@ -124,22 +124,22 @@ body {
   font-weight: bold;
   line-height: 65px;
 }
-.price-card__descroption {
+.price-card__descroptions {
   padding: 40px 25px;
   font-size: 1.4rem;
   text-align: center;
   font-weight: 300;
 }
-.price-card__option-item {
+.price-card__options-item {
   padding: 12px 20px;
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 26px;
 }
-.price-card__option-item:nth-last-of-type(2n) {
+.price-card__options-item:nth-last-of-type(2n) {
   background: #2a3438;
 }
-.price-card__option-item .icon-arrov {
+.price-card__options-item .icon-arrov {
   display: inline-block;
   width: 15px;
   height: 13px;
