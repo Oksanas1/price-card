@@ -1,4 +1,4 @@
-.gitignor
+.gitignore
 .eslintrc.js
 .fantasticonrc.js
 .ditignore
@@ -10,4 +10,3 @@ fonts.scss
 
 /node_modules
 /images
-/Montserrat
