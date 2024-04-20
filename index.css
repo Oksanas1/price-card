@@ -106,15 +106,15 @@ body {
   text-align: center;
 }
 .price-card__title {
-  padding: 33px 20px;
+  padding: 35px 20px 33px;
   text-align: center;
-  font-size: 35px;
+  font-size: 3.5rem;
   line-height: 43px;
 }
 .price-card__title span {
   display: block;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 26px;
   font-size: 2.2rem;
 }
 .price-card__price {
@@ -154,7 +154,7 @@ body {
   padding: 0 20px;
   border-radius: 40px;
   line-height: 40px;
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;

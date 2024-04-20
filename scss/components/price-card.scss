@@ -62,15 +62,15 @@
   }
 
   &__title {
-    padding: 33px 20px;
+    padding: 35px 20px 33px;
     text-align: center;
-    font-size: 35px;
+    font-size: 3.5rem;
     line-height: 43px;
 
     span {
       display: block;
       font-weight: $font-weight-main;
-      line-height: 24px;
+      line-height: 26px;
       font-size: 2.2rem;
     }
   }
@@ -118,7 +118,7 @@
     padding: 0 20px;
     border-radius: 40px;
     line-height: 40px;
-    font-size: 2.2rem;
+    font-size: 1.4rem;
     text-align: center;
     text-transform: uppercase;
     color: $color-text-white1;
