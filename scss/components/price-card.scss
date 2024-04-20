@@ -70,6 +70,7 @@
     span {
       display: block;
       font-weight: $font-weight-main;
+      line-height: 24px;
       font-size: 2.5rem;
     }
   }
@@ -89,14 +90,20 @@
   }
 
   &__option-item {
-    padding: 15px 20px;
+    padding: 12px 20px;
+    font-weight: $font-weight-main;
+    line-height: 26px;
 
     &:nth-last-of-type(2n) {
       background: $color-black3;
     }
 
     .icon-arrov {
+      display: inline-block;
+      width: 15px;
+      height: 13px;
       margin-right: 20px;
+      font-size: 1.3rem;
     }
   }
 
@@ -109,5 +116,6 @@
     text-align: center;
     text-transform: uppercase;
     color: $color-text-white1;
+    font-weight: $font-weight-main;
   }
 }

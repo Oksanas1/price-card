@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 *,
 *::before,
 *::after {
@@ -44,90 +45,6 @@ button {
   content: "\f101";
 }
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-Thin.ttf") format("ttf");
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-ExtraLight.ttf") format("ttf");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-Light.ttf") format("ttf");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-Regular.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-Medium.ttf") format("ttf");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-SemiBold.ttf") format("ttf");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-Bold.ttf") format("ttf");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-ExtraBold.ttf") format("ttf");
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-Black.ttf") format("ttf");
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-LightItalic.ttf") format("ttf");
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-Italic.ttf") format("ttf");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-MediumItalic.ttf") format("ttf");
-  font-weight: 500;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-SemiBoldItalic.ttf") format("ttf");
-  font-weight: 600;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../../fonts/Montserrat/static/Montserrat-BoldItalic.ttf") format("ttf");
-  font-weight: bold;
-  font-style: italic;
-}
 html {
   font-size: 10px;
 }
@@ -198,6 +115,7 @@ body {
 .price-card__title span {
   display: block;
   font-weight: 300;
+  line-height: 24px;
   font-size: 2.5rem;
 }
 .price-card__prise {
@@ -213,13 +131,19 @@ body {
   font-weight: 300;
 }
 .price-card__option-item {
-  padding: 15px 20px;
+  padding: 12px 20px;
+  font-weight: 300;
+  line-height: 26px;
 }
 .price-card__option-item:nth-last-of-type(2n) {
   background: #2a3438;
 }
 .price-card__option-item .icon-arrov {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
   margin-right: 20px;
+  font-size: 1.3rem;
 }
 .price-card__button {
   display: block;
@@ -230,6 +154,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=index.css.map */
