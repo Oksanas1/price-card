@@ -3,10 +3,8 @@
 .fantasticonrc.js
 .ditignore
 
-icon-codepoints.json
 package-lock.json
 package.json
-fonts.scss
 
 /node_modules
 /images
