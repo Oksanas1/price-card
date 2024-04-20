@@ -145,13 +145,13 @@ body {
   display: inline-block;
   width: 15px;
   height: 13px;
-  margin-right: 20px;
+  margin-right: 22px;
   font-size: 1.3rem;
 }
 .price-card__button {
   display: block;
   margin: 40px auto;
-  padding: 0 20px;
+  padding: 0 25px;
   border-radius: 40px;
   line-height: 40px;
   font-size: 1.4rem;
