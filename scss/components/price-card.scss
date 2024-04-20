@@ -20,7 +20,7 @@
     margin-left: 15px;
   }
 
-  &.basic .price-card__prise,
+  &.basic .price-card__price,
   &.basic .price-card__button {
     background: $color-green1;
   }
@@ -29,7 +29,7 @@
     color: $color-green1;
   }
 
-  &.business .price-card__prise,
+  &.business .price-card__price,
   &.business .price-card__button {
     background: $color-blue1;
   }
@@ -38,7 +38,7 @@
     color: $color-blue1;
   }
 
-  &.webshop .price-card__prise,
+  &.webshop .price-card__price,
   &.webshop .price-card__button {
     background: $color-orange1;
   }
@@ -75,7 +75,7 @@
     }
   }
 
-  &__prise {
+  &__price {
     padding: 20px;
     font-size: 5.5rem;
     text-align: center;

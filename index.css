@@ -75,19 +75,19 @@ body {
 .price-card + .price-card {
   margin-left: 15px;
 }
-.price-card.basic .price-card__prise, .price-card.basic .price-card__button {
+.price-card.basic .price-card__price, .price-card.basic .price-card__button {
   background: #5bb189;
 }
 .price-card.basic .icon-arrov {
   color: #5bb189;
 }
-.price-card.business .price-card__prise, .price-card.business .price-card__button {
+.price-card.business .price-card__price, .price-card.business .price-card__button {
   background: #3a6ba5;
 }
 .price-card.business .icon-arrov {
   color: #3a6ba5;
 }
-.price-card.webshop .price-card__prise, .price-card.webshop .price-card__button {
+.price-card.webshop .price-card__price, .price-card.webshop .price-card__button {
   background: #ec632a;
 }
 .price-card.webshop .icon-arrov {
@@ -118,7 +118,7 @@ body {
   line-height: 24px;
   font-size: 2.5rem;
 }
-.price-card__prise {
+.price-card__price {
   padding: 20px;
   font-size: 5.5rem;
   text-align: center;
