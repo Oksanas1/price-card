@@ -17,7 +17,7 @@
   overflow: hidden;
 
   & + & {
-    margin-left: 15px;
+    margin-left: 18px;
   }
 
   &.basic .price-card__price,
@@ -71,7 +71,7 @@
       display: block;
       font-weight: $font-weight-main;
       line-height: 24px;
-      font-size: 2.2rem;
+      font-size: 2.4rem;
     }
   }
 
@@ -85,13 +85,13 @@
 
   &__descroptions {
     padding: 40px 25px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: center;
     font-weight: $font-weight-main;
   }
 
   &__options-list {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: $font-weight-main;
   }
 
@@ -118,7 +118,7 @@
     padding: 0 20px;
     border-radius: 40px;
     line-height: 40px;
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     text-align: center;
     text-transform: uppercase;
     color: $color-text-white1;
