@@ -126,12 +126,12 @@ body {
 }
 .price-card__descroptions {
   padding: 40px 25px;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
   font-weight: 300;
 }
 .price-card__options-list {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 .price-card__options-item {
@@ -154,7 +154,7 @@ body {
   padding: 0 20px;
   border-radius: 40px;
   line-height: 40px;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
