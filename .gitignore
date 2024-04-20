@@ -1,0 +1,11 @@
+.gitignor
+.eslintrc.js
+.fantasticonrc.js
+.ditignore
+
+icon-codepoints.json
+package-lock.json
+package.json
+
+/node_modules
+/images

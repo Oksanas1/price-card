@@ -1,0 +1,235 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Inherit fonts for inputs and buttons */
+button {
+  border: none;
+  font: inherit;
+}
+
+@font-face {
+  font-family: "icons";
+  src: url("fonts/icon-font/icons.ttf?6e66b3d083650f183f04a8fce5c6e71a") format("truetype"), url("fonts/icon-font/icons.woff?6e66b3d083650f183f04a8fce5c6e71a") format("woff"), url("fonts/icon-font/icons.woff2?6e66b3d083650f183f04a8fce5c6e71a") format("woff2");
+}
+[class^=icon-],
+[class*=" icon-"],
+.icon-font {
+  font-family: icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrov:before {
+  content: "\f101";
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-Thin.ttf") format("ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-ExtraLight.ttf") format("ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-ExtraBold.ttf") format("ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-Black.ttf") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-LightItalic.ttf") format("ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-Italic.ttf") format("ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-MediumItalic.ttf") format("ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-SemiBoldItalic.ttf") format("ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat/static/Montserrat-BoldItalic.ttf") format("ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #141b1c;
+  font-size: 2rem;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.price-cards {
+  max-width: 1170px;
+  margin: 50vh auto 0;
+  transform: translateY(-50%);
+}
+.price-cards__list {
+  display: flex;
+}
+
+.price-card {
+  position: relative;
+  width: 380px;
+  background: #334247;
+  overflow: hidden;
+}
+.price-card + .price-card {
+  margin-left: 15px;
+}
+.price-card.basic .price-card__prise, .price-card.basic .price-card__button {
+  background: #5bb189;
+}
+.price-card.basic .icon-arrov {
+  color: #5bb189;
+}
+.price-card.business .price-card__prise, .price-card.business .price-card__button {
+  background: #3a6ba5;
+}
+.price-card.business .icon-arrov {
+  color: #3a6ba5;
+}
+.price-card.webshop .price-card__prise, .price-card.webshop .price-card__button {
+  background: #ec632a;
+}
+.price-card.webshop .icon-arrov {
+  color: #ec632a;
+}
+.price-card .action {
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  display: block;
+  width: 125px;
+  background: #dc3f45;
+  transform: rotate(45deg);
+  line-height: 25px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+.price-card__title {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 43px;
+}
+.price-card__title span {
+  display: block;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+.price-card__prise {
+  padding: 20px;
+  font-size: 5.5rem;
+  text-align: center;
+  font-weight: bold;
+  line-height: 65px;
+}
+.price-card__descroption {
+  padding: 40px 25px;
+  text-align: center;
+  font-weight: 300;
+}
+.price-card__option-item {
+  padding: 15px 20px;
+}
+.price-card__option-item:nth-last-of-type(2n) {
+  background: #2a3438;
+}
+.price-card__option-item .icon-arrov {
+  margin-right: 20px;
+}
+.price-card__button {
+  display: block;
+  margin: 40px auto;
+  padding: 0 20px;
+  border-radius: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=index.css.map */

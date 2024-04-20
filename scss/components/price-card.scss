@@ -1,0 +1,113 @@
+@import '../utils/varibles.scss';
+
+.price-cards {
+  max-width: 1170px;
+  margin: 50vh auto 0;
+  transform: translateY(-50%);
+
+  &__list {
+    display: flex;
+  }
+}
+
+.price-card {
+  position: relative;
+  width: 380px;
+  background: $color-black1;
+  overflow: hidden;
+
+  & + & {
+    margin-left: 15px;
+  }
+
+  &.basic .price-card__prise,
+  &.basic .price-card__button {
+    background: $color-green1;
+  }
+
+  &.basic .icon-arrov {
+    color: $color-green1;
+  }
+
+  &.business .price-card__prise,
+  &.business .price-card__button {
+    background: $color-blue1;
+  }
+
+  &.business .icon-arrov {
+    color: $color-blue1;
+  }
+
+  &.webshop .price-card__prise,
+  &.webshop .price-card__button {
+    background: $color-orange1;
+  }
+
+  &.webshop .icon-arrov {
+    color: $color-orange1;
+  }
+
+  .action {
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    display: block;
+    width: 125px;
+    background: $color-red1;
+    transform: rotate(45deg);
+    line-height: 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &__title {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 43px;
+
+    span {
+      display: block;
+      font-weight: $font-weight-main;
+      font-size: 2.5rem;
+    }
+  }
+
+  &__prise {
+    padding: 20px;
+    font-size: 5.5rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 65px;
+  }
+
+  &__descroption {
+    padding: 40px 25px;
+    text-align: center;
+    font-weight: $font-weight-main;
+  }
+
+  &__option-item {
+    padding: 15px 20px;
+
+    &:nth-last-of-type(2n) {
+      background: $color-black3;
+    }
+
+    .icon-arrov {
+      margin-right: 20px;
+    }
+  }
+
+  &__button {
+    display: block;
+    margin: 40px auto;
+    padding: 0 20px;
+    border-radius: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-text-white1;
+  }
+}
