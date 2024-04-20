@@ -49,10 +49,10 @@
 
   .action {
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: -30px;
     display: block;
-    width: 125px;
+    width: 155px;
     background: $color-red1;
     transform: rotate(45deg);
     line-height: 25px;
@@ -71,7 +71,7 @@
       display: block;
       font-weight: $font-weight-main;
       line-height: 24px;
-      font-size: 1.4rem;
+      font-size: 2.2rem;
     }
   }
 
@@ -90,10 +90,13 @@
     font-weight: $font-weight-main;
   }
 
-  &__options-item {
-    padding: 12px 20px;
+  &__options-list {
     font-size: 1.4rem;
     font-weight: $font-weight-main;
+  }
+
+  &__options-item {
+    padding: 12px 20px;
     line-height: 26px;
 
     &:nth-last-of-type(2n) {
@@ -115,7 +118,7 @@
     padding: 0 20px;
     border-radius: 40px;
     line-height: 40px;
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     text-align: center;
     text-transform: uppercase;
     color: $color-text-white1;
