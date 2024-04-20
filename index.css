@@ -106,7 +106,7 @@ body {
   text-align: center;
 }
 .price-card__title {
-  padding: 35px 20px 33px;
+  padding: 34px 20px 33px;
   text-align: center;
   font-size: 3.5rem;
   line-height: 43px;
@@ -114,7 +114,7 @@ body {
 .price-card__title span {
   display: block;
   font-weight: 300;
-  line-height: 26px;
+  line-height: 24px;
   font-size: 2rem;
 }
 .price-card__price {
