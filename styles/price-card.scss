@@ -28,6 +28,10 @@ body {
   background: $color-black1;
   overflow: hidden;
 
+  &:first-of-type {
+    padding-right: 5px;
+  }
+
   & + & {
     margin-left: 15px;
   }
@@ -56,7 +60,7 @@ body {
     background: $color-red1;
     transform: rotate(45deg);
     line-height: 25px;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
   }
@@ -84,19 +88,20 @@ body {
   }
 
   &__description {
-    padding: 40px 25px;
-    font-size: 1.4rem;
+    padding: 40px 26px;
+    font-size: $font-size-primery;
     text-align: center;
     font-weight: $font-weight-main;
+    line-height: 18.29px;
   }
 
   &__options-list {
-    font-size: 1.4rem;
+    font-size: $font-size-primery;
     font-weight: $font-weight-main;
   }
 
   &__options-item {
-    padding: 12px 20px;
+    padding: 12px 22px;
     line-height: 26px;
 
     &:nth-last-of-type(2n) {
@@ -105,14 +110,13 @@ body {
   }
 
   &__img {
-    display: inline-block;
     width: 15px;
     height: 13px;
     margin-right: 22px;
-    font-size: 1.3rem;
   }
 
   &__order-btn {
+    width: 155px;
     display: block;
     margin: 40px auto;
     padding: 0 25px;
