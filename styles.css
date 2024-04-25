@@ -55,7 +55,7 @@ body {
   overflow: hidden;
 }
 .price-card + .price-card {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .price-card.basic .price-card__price, .price-card.basic .price-card__order-btn {
   background: #5bb189;
