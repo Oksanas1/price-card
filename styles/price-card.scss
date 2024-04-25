@@ -28,8 +28,12 @@ body {
   background: $color-black1;
   overflow: hidden;
 
-  &:first-of-type {
-    padding-right: 5px;
+  &:first-of-type .price-card__title {
+    padding-right: 25px;
+  }
+
+  &:first-of-type .price-card__description {
+    padding-right: 30px;
   }
 
   & + & {

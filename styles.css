@@ -54,8 +54,11 @@ body {
   background: #334247;
   overflow: hidden;
 }
-.price-card:first-of-type {
-  padding-right: 5px;
+.price-card:first-of-type .price-card__title {
+  padding-right: 25px;
+}
+.price-card:first-of-type .price-card__description {
+  padding-right: 30px;
 }
 .price-card + .price-card {
   margin-left: 15px;
