@@ -56,7 +56,7 @@ body {
     background: $color-red1;
     transform: rotate(45deg);
     line-height: 25px;
-    font-size: $font-size-primery;
+    font-size: 14px;
     font-weight: bold;
     text-align: center;
   }
@@ -69,7 +69,7 @@ body {
 
     span {
       display: block;
-      font-weight: 1.4rem;
+      font-weight: $font-weight-main;
       line-height: 24px;
       font-size: 2rem;
     }
