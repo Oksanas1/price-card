@@ -1,13 +1,21 @@
-@import '../utils/varibles.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: $color-black2;
+  font-size: 2rem;
+  color: $color-text-white1;
+}
 
 .price-cards {
   max-width: 1170px;
   margin: 50vh auto 0;
   transform: translateY(-50%);
-
-  &__list {
-    display: flex;
-  }
+  display: flex;
 }
 
 .price-card {
@@ -25,26 +33,14 @@
     background: $color-green1;
   }
 
-  &.basic .icon-arrov {
-    color: $color-green1;
-  }
-
   &.business .price-card__price,
   &.business .price-card__button {
     background: $color-blue1;
   }
 
-  &.business .icon-arrov {
-    color: $color-blue1;
-  }
-
   &.webshop .price-card__price,
   &.webshop .price-card__button {
     background: $color-orange1;
-  }
-
-  &.webshop .icon-arrov {
-    color: $color-orange1;
   }
 
   .action {
@@ -56,7 +52,7 @@
     background: $color-red1;
     transform: rotate(45deg);
     line-height: 25px;
-    font-size: 1.4rem;
+    font-size: $font-size-primery;
     font-weight: bold;
     text-align: center;
   }
@@ -85,13 +81,13 @@
 
   &__descroptions {
     padding: 40px 25px;
-    font-size: 1.4rem;
+    font-size: $font-size-primery;
     text-align: center;
     font-weight: $font-weight-main;
   }
 
   &__options-list {
-    font-size: 1.4rem;
+    font-size: $font-size-primery;
     font-weight: $font-weight-main;
   }
 
@@ -103,12 +99,10 @@
       background: $color-black3;
     }
 
-    .icon-arrov {
-      display: inline-block;
+    &__img {
       width: 15px;
       height: 13px;
       margin-right: 22px;
-      font-size: 1.3rem;
     }
   }
 

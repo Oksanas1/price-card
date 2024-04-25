@@ -11,38 +11,20 @@ p {
   margin: 0;
 }
 
-ul,
-ol {
+ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-/* Inherit fonts for inputs and buttons */
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 button {
   border: none;
   font: inherit;
-}
-
-@font-face {
-  font-family: "icons";
-  src: url("fonts/icon-font/icons.ttf?6e66b3d083650f183f04a8fce5c6e71a") format("truetype"), url("fonts/icon-font/icons.woff?6e66b3d083650f183f04a8fce5c6e71a") format("woff"), url("fonts/icon-font/icons.woff2?6e66b3d083650f183f04a8fce5c6e71a") format("woff2");
-}
-[class^=icon-],
-[class*=" icon-"],
-.icon-font {
-  font-family: icons !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-arrov:before {
-  content: "\f101";
 }
 
 html {
@@ -60,8 +42,6 @@ body {
   max-width: 1170px;
   margin: 50vh auto 0;
   transform: translateY(-50%);
-}
-.price-cards__list {
   display: flex;
 }
 
@@ -77,20 +57,11 @@ body {
 .price-card.basic .price-card__price, .price-card.basic .price-card__button {
   background: #5bb189;
 }
-.price-card.basic .icon-arrov {
-  color: #5bb189;
-}
 .price-card.business .price-card__price, .price-card.business .price-card__button {
   background: #3a6ba5;
 }
-.price-card.business .icon-arrov {
-  color: #3a6ba5;
-}
 .price-card.webshop .price-card__price, .price-card.webshop .price-card__button {
   background: #ec632a;
-}
-.price-card.webshop .icon-arrov {
-  color: #ec632a;
 }
 .price-card .action {
   position: absolute;
@@ -141,12 +112,10 @@ body {
 .price-card__options-item:nth-last-of-type(2n) {
   background: #2a3438;
 }
-.price-card__options-item .icon-arrov {
-  display: inline-block;
+.price-card__options-item__img {
   width: 15px;
   height: 13px;
   margin-right: 22px;
-  font-size: 1.3rem;
 }
 .price-card__button {
   display: block;
@@ -161,4 +130,4 @@ body {
   font-weight: 400;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,5 @@
 .gitignore
 .eslintrc.js
-.fantasticonrc.js
 .DS_Store
 
 
@@ -9,4 +8,3 @@ package.json
 
 /node_modules
 /images
-/Montserrat
