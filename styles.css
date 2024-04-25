@@ -87,7 +87,7 @@ body {
 }
 .price-card__title span {
   display: block;
-  font-weight: 300;
+  font-weight: 1.4rem;
   line-height: 24px;
   font-size: 2rem;
 }
@@ -110,7 +110,7 @@ body {
   font-weight: 300;
 }
 .price-card__options-item {
-  padding: 12px 20px;
+  padding: 12px 22px;
   line-height: 26px;
 }
 .price-card__options-item:nth-last-of-type(2n) {

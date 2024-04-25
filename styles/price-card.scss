@@ -69,7 +69,7 @@ body {
 
     span {
       display: block;
-      font-weight: $font-weight-main;
+      font-weight: 1.4rem;
       line-height: 24px;
       font-size: 2rem;
     }
@@ -97,7 +97,7 @@ body {
   }
 
   &__options-item {
-    padding: 12px 20px;
+    padding: 12px 22px;
     line-height: 26px;
 
     &:nth-last-of-type(2n) {
