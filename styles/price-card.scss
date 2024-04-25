@@ -32,17 +32,17 @@ body {
   }
 
   &.basic .price-card__price,
-  &.basic .price-card__button {
+  &.basic .price-card__order-btn {
     background: $color-green1;
   }
 
   &.business .price-card__price,
-  &.business .price-card__button {
+  &.business .price-card__order-btn {
     background: $color-blue1;
   }
 
   &.webshop .price-card__price,
-  &.webshop .price-card__button {
+  &.webshop .price-card__order-btn {
     background: $color-orange1;
   }
 
@@ -82,7 +82,7 @@ body {
     line-height: 65px;
   }
 
-  &__descroptions {
+  &__description {
     padding: 40px 25px;
     font-size: $font-size-primery;
     text-align: center;
@@ -109,7 +109,7 @@ body {
     margin-right: 22px;
   }
 
-  &__button {
+  &__order-btn {
     display: block;
     margin: 40px auto;
     padding: 0 25px;

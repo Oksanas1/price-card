@@ -56,13 +56,13 @@ body {
 .price-card + .price-card {
   margin-left: 15px;
 }
-.price-card.basic .price-card__price, .price-card.basic .price-card__button {
+.price-card.basic .price-card__price, .price-card.basic .price-card__order-btn {
   background: #5bb189;
 }
-.price-card.business .price-card__price, .price-card.business .price-card__button {
+.price-card.business .price-card__price, .price-card.business .price-card__order-btn {
   background: #3a6ba5;
 }
-.price-card.webshop .price-card__price, .price-card.webshop .price-card__button {
+.price-card.webshop .price-card__price, .price-card.webshop .price-card__order-btn {
   background: #ec632a;
 }
 .price-card .action {
@@ -97,7 +97,7 @@ body {
   font-weight: bold;
   line-height: 65px;
 }
-.price-card__descroptions {
+.price-card__description {
   padding: 40px 25px;
   font-size: 1.4rem;
   text-align: center;
@@ -119,7 +119,7 @@ body {
   height: 13px;
   margin-right: 22px;
 }
-.price-card__button {
+.price-card__order-btn {
   display: block;
   margin: 40px auto;
   padding: 0 25px;
