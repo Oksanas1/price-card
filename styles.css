@@ -42,6 +42,8 @@ body {
   max-width: 1170px;
   margin: 50vh auto 0;
   transform: translateY(-50%);
+}
+.price-cards__list {
   display: flex;
 }
 
