@@ -36,6 +36,7 @@ body {
   background: #141b1c;
   font-size: 2rem;
   color: #ffffff;
+  line-height: 24px;
 }
 
 .price-cards {
@@ -74,7 +75,7 @@ body {
   background: #dc3f45;
   transform: rotate(45deg);
   line-height: 25px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
 }
@@ -99,12 +100,13 @@ body {
 }
 .price-card__description {
   padding: 40px 25px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: 300;
+  line-height: 18.29px;
 }
 .price-card__options-list {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 .price-card__options-item {

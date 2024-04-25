@@ -9,6 +9,7 @@ body {
   background: $color-black2;
   font-size: 2rem;
   color: $color-text-white1;
+  line-height: 24px;
 }
 
 .price-cards {
@@ -87,6 +88,7 @@ body {
     font-size: $font-size-primery;
     text-align: center;
     font-weight: $font-weight-main;
+    line-height: 18.29px;
   }
 
   &__options-list {
