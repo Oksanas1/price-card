@@ -1,5 +1,5 @@
 Project: Price cards;
-[Site link](https://www.figma.com/file/EiSIgufiAxuZnoZ1AUliCe/price-table-runel?node-id=0%3A2);
+[Site link]([https://www.figma.com/file/EiSIgufiAxuZnoZ1AUliCe/price-table-runel?node-id=0%3A2](https://oksanas1.github.io/price-card/));
 
 Layout desktop version.
 The tech stack is:
