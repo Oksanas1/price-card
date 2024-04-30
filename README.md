@@ -1,5 +1,5 @@
 # Project: Price cards;
-### [Site link](https://oksanas1.github.io/price-card/);
+### [Site link](https://oksanas1.github.io/price-card/)
 
 Layout supports desktop version
 

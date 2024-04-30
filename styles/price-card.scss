@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-html {
-  font-size: 10px;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   background: $color-black2;
-  font-size: 2rem;
+  font-size: 1.25rem;
   color: $color-text-white1;
   line-height: 24px;
 }
@@ -28,64 +24,56 @@ body {
   background: $color-black1;
   overflow: hidden;
 
-  &:first-of-type .price-card__title {
-    padding-right: 25px;
-  }
-
-  &:first-of-type .price-card__description {
-    padding-right: 30px;
-  }
-
   & + & {
     margin-left: 15px;
   }
 
-  &.basic .price-card__price,
-  &.basic .price-card__order-btn {
-    background: $color-green1;
+  &_basic {
+    .price-card__title {
+      padding-right: 25px;
+    }
+
+    .price-card__description {
+      padding-right: 30px;
+    }
+
+    .price-card__price,
+    .price-card__order-btn {
+      background: $color-green1;
+    }
   }
 
-  &.business .price-card__price,
-  &.business .price-card__order-btn {
-    background: $color-blue1;
+  &_business {
+    .price-card__price,
+    .price-card__order-btn {
+      background: $color-blue1;
+    }
   }
 
-  &.webshop .price-card__price,
-  &.webshop .price-card__order-btn {
-    background: $color-orange1;
-  }
-
-  .action {
-    position: absolute;
-    top: 30px;
-    right: -30px;
-    display: block;
-    width: 155px;
-    background: $color-red1;
-    transform: rotate(45deg);
-    line-height: 25px;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
+  &_webshop {
+    .price-card__price,
+    .price-card__order-btn {
+      background: $color-orange1;
+    }
   }
 
   &__title {
     padding: 33px 20px;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.1875rem;
     line-height: 43px;
 
     span {
       display: block;
       font-weight: $font-weight-main;
       line-height: 24px;
-      font-size: 2rem;
+      font-size: 1.25rem;
     }
   }
 
   &__price {
     padding: 20px;
-    font-size: 5.5rem;
+    font-size: 3.4375rem;
     text-align: center;
     font-weight: bold;
     line-height: 65px;
@@ -126,10 +114,24 @@ body {
     padding: 0 25px;
     border-radius: 40px;
     line-height: 40px;
-    font-size: 1.4rem;
+    font-size: 0.875rem;
     text-align: center;
     text-transform: uppercase;
     color: $color-text-white1;
     font-weight: 400;
   }
+}
+
+.action {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  display: block;
+  width: 155px;
+  background: $color-red1;
+  transform: rotate(45deg);
+  line-height: 25px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-align: center;
 }
