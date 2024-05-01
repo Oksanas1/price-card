@@ -1,4 +1,5 @@
-# Project: Price cards;
+# Project: Price cards
+
 ### [Site link](https://oksanas1.github.io/price-card/)
 
 Layout supports desktop version
@@ -12,4 +13,5 @@ Layout supports desktop version
 - [BEM methodology](https://en.bem.info/methodology/)
 
 ### Authour
-- Oksana Khainus 
+
+- Oksana Khainus
