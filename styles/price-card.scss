@@ -17,12 +17,14 @@
     text-align: center;
     font-size: 2.1875rem;
     line-height: 43px;
+    letter-spacing: 0.90px;
 
     span {
       display: block;
       font-weight: $font-weight-main;
       line-height: 24px;
       font-size: 1.25rem;
+      letter-spacing: normal;
     }
   }
 
