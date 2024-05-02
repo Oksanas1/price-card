@@ -2,10 +2,8 @@
   max-width: 1170px;
   margin: 50vh auto 0;
   transform: translateY(-50%);
-
-  &__list {
-    display: flex;
-  }
+  display: flex;
+  gap: 15px;
 }
 
 .price-card {
@@ -13,39 +11,6 @@
   width: 380px;
   background: $color-black1;
   overflow: hidden;
-
-  & + & {
-    margin-left: 15px;
-  }
-
-  &_basic {
-    .price-card__title {
-      padding-right: 25px;
-    }
-
-    .price-card__description {
-      padding-right: 30px;
-    }
-
-    .price-card__price,
-    .price-card__order-btn {
-      background: $color-green1;
-    }
-  }
-
-  &_business {
-    .price-card__price,
-    .price-card__order-btn {
-      background: $color-blue1;
-    }
-  }
-
-  &_webshop {
-    .price-card__price,
-    .price-card__order-btn {
-      background: $color-orange1;
-    }
-  }
 
   &__title {
     padding: 33px 20px;
@@ -109,6 +74,20 @@
     text-transform: uppercase;
     color: $color-text-white1;
     font-weight: 400;
+  }
+}
+
+.color{
+  &_green {
+    background: $color-green1;
+  }
+
+  &_blue {
+    background: $color-blue1;
+  }
+
+  &_orange {
+    background: $color-orange1;
   }
 }
 
