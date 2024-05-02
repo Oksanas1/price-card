@@ -41,7 +41,7 @@ body {
   margin: 50vh auto 0;
   transform: translateY(-50%);
   display: flex;
-  gap: 18px;
+  gap: 16px;
 }
 
 .price-card {
