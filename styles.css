@@ -1,12 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
 
-div,
 h1,
 p {
   margin: 0;
